@@ -689,4 +689,14 @@ header .shares img:hover {
   display: none;
   overflow: hidden;
 } 
+
 /*# sourceMappingURL=styles.css.map */
+button:first-child:hover{
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+button:last-child:hover{
+  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+  background-size: 400%;
+}
+
