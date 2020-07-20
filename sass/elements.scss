@@ -1,0 +1,52 @@
+body{
+    background-color: color('white');
+    color: color('dusk');
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: $base-font-size;
+    line-height: 1.7em;
+    @media screen and(max-width: 480px){
+        font-size: $base-font-size - 2;
+    }
+    &.boxed{
+        background-color: darken(color('darkwhite'),5);
+        header, section, nav, footer{
+            width: 1200px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+
+a{
+    &:hover{
+        text-decoration: none;
+        color: color('blue');
+    }
+}
+
+img{
+    max-width: 100%
+}
+
+.navbar{
+    background: linear-gradient(to right, color('blue'), color('green'));
+    padding: 15px 0;
+    .navbar-brand{
+        color: color('white');
+        font-weight: 700;
+        margin: 0 auto;
+    }
+}
+
+section{
+    padding: 70px 0;
+    &.sm{
+        padding: 50px 0;
+    }
+}
+
+.container{
+    width: 1100px;
+    max-width: 97%;
+}
